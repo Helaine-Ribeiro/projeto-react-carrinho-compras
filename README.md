@@ -30,3 +30,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+![image](https://github.com/HelaineRibeiro/projeto-react-carrinho-compras/assets/90282001/20790fc4-550e-4e79-b2fa-0686fc85d2da)
+![image](https://github.com/HelaineRibeiro/projeto-react-carrinho-compras/assets/90282001/7efb26d9-94f5-45b5-b2fd-98563d3583bd)
+![image](https://github.com/HelaineRibeiro/projeto-react-carrinho-compras/assets/90282001/9daaa693-49c9-4f2d-94ef-aa71642df6ae)
+
+
+
+

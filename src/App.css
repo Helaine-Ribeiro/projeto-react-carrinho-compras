@@ -1,38 +1,107 @@
 .App {
   text-align: center;
+  margin-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App  h1{
+  font-size: 80px;
+    color: rgb(142, 30, 171);
+    font-weight: bold;
+    text-shadow: 0px -1px 14px rgb(217, 122, 220), 0px -3px 15px rgb(219, 106, 208), 10px 3px 25px rgb(11, 143, 77), 10px 5px 80px rgb(172, 59, 104);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+}
+
+
+.cart-item-lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cart-item-lista p {
+  margin: 0;
+}
+
+.cart-item-lista button{
+  background-color: red;
+}
+
+.product-image {
+  max-width: 100px;
+  height: auto;
+}
+
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.product {
+  width: calc(25% - 10px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.cart-items {
+  margin-top: 40px;
+}
+
+.cart-items h2 {
+  margin-bottom: 20px;
+}
+
+
+
+button {
+  padding: 5px 10px;
+  background-color: #0f824b;
   color: white;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 768px) {
+  .product {
+    width: calc(50% - 10px);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
